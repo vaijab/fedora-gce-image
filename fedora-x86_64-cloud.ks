@@ -1,4 +1,5 @@
 %include fedora-cloud-base.ks
+%include fedora-x86_64-gce-cloud.ks
 
 %packages
 kernel
