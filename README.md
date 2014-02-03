@@ -43,6 +43,6 @@ Then you have to upload it to a google cloud storage bucket which you have acces
 If you have any issues building the image or running it on GCE, create an issue
 (https://github.com/vaijab/fedora-gce-image/issues/new) and I will hapilly help.
 
-# Contributing
+## Contributing
 Thanks! And you're welcome!
 
