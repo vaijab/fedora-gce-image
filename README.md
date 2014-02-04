@@ -1,5 +1,8 @@
 fedora-gce-image
 ================
+**DISCLAIMER: This is NOT an official Fedora cloud image.**
+
+
 Everything you need to be able to build a Fedora 20 cloud image for Google
 Compute Engine using appliance-creator.
 
@@ -21,7 +24,7 @@ use the images I build.
 This will create a new image from a tarball which contains just a `disk.raw`
 disk image.
 
-* `gcutil addimage fedora-20 gs://fedora-cloud/fedora-20-latest.tar.gz`
+* `gcutil addimage fedora-20 gs://cloud-images/fedora-20-latest.tar.gz`
 
 ## Build Your Own
 * `git clone https://github.com/vaijab/fedora-gce-image.git`
