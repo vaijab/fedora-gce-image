@@ -44,7 +44,7 @@ Then you have to upload it to a google cloud storage bucket which you have acces
 
 ## Issues
 If you have any issues building the image or running it on GCE, create an issue
-(https://github.com/vaijab/fedora-gce-image/issues/new) and I will hapilly help.
+(https://github.com/vaijab/fedora-gce-image/issues/new) and I will happily help.
 
 ## Contributing
 Thanks! And you're welcome!
