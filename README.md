@@ -29,12 +29,10 @@ disk image.
 ## Build Your Own
 * `git clone https://github.com/vaijab/fedora-gce-image.git`
 * `cd fedora-gce-image`
-* `yum install appliance-tools`
-* `sudo appliance-creator -c fedora-x86_64-cloud.ks -n fedora-20 --cache /var/cache/appliance-creator`
+* `yum install appliance-tools xz`
+* `sudo make`
 
-This will take a few minutes and will produce a xz compressed raw disk image.
-You have to uncompress it rename `fedora-20-sda.raw` to `disk.raw` and create a
-tarball containing only `disk.raw` file.
+This will take a few minutes and will produce tarball containing `disk.raw` file.
 
 Then you have to upload it to a google cloud storage bucket which you have access to.
 * `gsutil cp fedora-20.tar.gz gs://<your-bucket-name>`
