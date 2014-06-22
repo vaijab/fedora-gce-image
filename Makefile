@@ -1,6 +1,6 @@
 VERSION = 20
 FILENAME = "fedora-$(VERSION)-$(shell date +%Y%m%d).tar.gz"
-DEPS = xz appliance-creator
+DEPS = xz appliance-creator tar
 
 all: check_root check_deps build
 clean: check_root clean-custom
